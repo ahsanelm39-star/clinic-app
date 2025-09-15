@@ -1,0 +1,114 @@
+.landing{
+  height: 100vh;
+  background-image: url(/images/landing-background.jpg);
+  background-size: cover;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media (max-width:767px){
+.landing{
+  height: 100vh;
+}
+}
+
+
+.landing-box{
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 80%;
+
+}
+
+@media (max-width:950px){
+  .landing-box{
+      width: 100%;
+      padding: 0 30px 0 40px;
+  }
+} 
+
+@media (max-width:767px){
+.landing-box{
+  padding: 0 30px 0 20px;
+  flex-direction: column;
+    margin-bottom:-60px;
+  align-items: center;
+  justify-content: center;
+}
+}
+
+@media (max-width:767px){
+.landing-box .text{
+  margin-bottom:-60px;
+}
+}
+
+.landing-box p{
+  color: var(--icons-color);
+  font-size: 18px;
+  background-image: url(/images/landing-p.png);
+  margin-top: 10px;
+  width: fit-content;
+}
+.landing-box h1{
+  color: var(--main-color);
+  font-size: 45px;
+  font-weight: bold;
+}
+
+@media (max-width:1180px){
+  .landing-box h1{
+  font-size: 40px;
+}
+}
+@media (max-width:950px){
+  .landing-box h1{
+  font-size: 35px;
+}
+}
+
+
+.landing-box .image{
+  width: 700px;
+  margin-left: 10px;
+}
+@media (max-width:767px){
+.landing-box .image{
+  max-width: 380px;
+}
+}
+@media (max-width:435px){
+.landing-box .image{
+  max-width: 290px;
+}
+}
+
+.landing-box .image img{
+  width: 100%;
+  animation: imageMoveing 5s infinite alternate;
+  -webkit-animation: imageMoveing 5s infinite alternate;
+}
+
+.landing>img{
+   animation: imageMoveing 5s infinite alternate;
+   -webkit-animation: imageMoveing 5s infinite alternate;
+}
+
+@keyframes imageMoveing {
+  0%,100%{
+    transform: translatey(0);
+    -webkit-transform: translatey(0);
+    -moz-transform: translatey(0);
+    -ms-transform: translatey(0);
+    -o-transform: translatey(0);
+}
+  50%{
+    transform: translatey(15px);
+    -webkit-transform: translatey(15px);
+    -moz-transform: translatey(15px);
+    -ms-transform: translatey(15px);
+    -o-transform: translatey(15px);
+}
+}

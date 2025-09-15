@@ -1,0 +1,94 @@
+.scound-page-head{
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image:url(/images/footer.jpg) ;
+    background-size: cover;
+    position: relative;
+}
+.scound-page-head span{
+    color:  var(--main-color);
+    position: relative;
+}
+
+.scound-page-head img{
+    position: absolute;
+}
+.scound-page-head img:nth-of-type(1){
+    bottom:20px;
+    right: 40px;
+    animation: turn 18s linear infinite;
+    -webkit-animation: turn 18s linear infinite;
+}
+
+
+@keyframes turn{
+    0%{
+        transform:rotate(0);
+        -webkit-transform:rotate(0);
+        -moz-transform:rotate(0);
+        -ms-transform:rotate(0);
+        -o-transform:rotate(0);
+}
+    100%{
+        transform:rotate(360deg);
+        -webkit-transform:rotate(360deg);
+        -moz-transform:rotate(360deg);
+        -ms-transform:rotate(360deg);
+        -o-transform:rotate(360deg);
+}
+}
+
+
+.scound-page-head img:nth-of-type(2){
+    bottom:20px;
+    left: 40px;
+    animation: moveRight 4s ease infinite; 
+    -webkit-animation: moveRight 4s ease infinite;
+}
+
+
+@keyframes moveRight{
+    0%,100%{
+        transform: translatex(0);
+        -webkit-transform: translatex(0);
+        -moz-transform: translatex(0);
+        -ms-transform: translatex(0);
+        -o-transform: translatex(0);
+}
+    50%{
+        transform: translatex(20px);
+        -webkit-transform: translatex(20px);
+        -moz-transform: translatex(20px);
+        -ms-transform: translatex(20px);
+        -o-transform: translatex(20px);
+}
+}
+
+
+
+.scound-page-head img:nth-of-type(3){
+    top:50px;
+    left: 30%;
+     animation: moveUp 4s ease infinite;
+    -webkit-animation: moveUp 4s ease infinite;
+}
+
+
+@keyframes moveUp{
+    0%,100%{
+        transform: translatey(0);
+        -webkit-transform: translatey(0);
+        -moz-transform: translatey(0);
+        -ms-transform: translatey(0);
+        -o-transform: translatey(0);
+}
+    50%{
+        transform: translatey(20px);
+        -webkit-transform: translatey(20px);
+        -moz-transform: translatey(20px);
+        -ms-transform: translatey(20px);
+        -o-transform: translatey(20px);
+}
+}

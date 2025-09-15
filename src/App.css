@@ -1,0 +1,65 @@
+*{
+  box-sizing: border-box;
+  font-family: "Oswald", sans-serif;
+}
+html{
+  scroll-behavior: smooth;
+}
+body{
+  background-color: #e3f0ff49;
+}
+:root{
+  --main-color:rgba(53, 115, 190, 0.994);
+  --hover-color: #35b5b1;
+  --Shover-color: #2f9e9b;
+  --icons-color: rgb(89, 179, 137);
+  
+  --p-color:#251f1fda;
+}
+a{
+  text-decoration: none;
+}
+li{
+  letter-spacing: .5px;
+}
+
+.go-up{
+  position: fixed;
+  z-index: 8;
+  bottom: 20px;
+  right: 20px;
+  color: white;
+  background-color: var(--main-color);
+  padding: 5px 10px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+  font-weight: bold;
+  font-size: 20px;
+  display: none;
+}
+
+.go-up.shwo{
+  display: inline-block;
+}
+
+.go-up:hover{
+  opacity: .8;
+}
+
+.movement{
+     transform: translatey(0) !important;
+     -webkit-transform: translatey(0) !important;
+     -moz-transform: translatey(0) !important;
+     -ms-transform: translatey(0) !important;
+     -o-transform: translatey(0) !important;
+     opacity: 1 !important;
+}

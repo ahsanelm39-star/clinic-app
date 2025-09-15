@@ -1,0 +1,22 @@
+.arwo{
+    color: #fff;
+}
+
+.reed-more{
+    background-color: var(--icons-color);
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+.reed-more:hover{
+    background-color:  rgb(77, 153, 117);
+}
+
+@media (max-width:767px){
+    .reed-more{
+        padding: 10px 20px;
+        font-size: 16px;
+    }
+}
