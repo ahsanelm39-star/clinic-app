@@ -43,13 +43,15 @@ export default function Header () {
         }}  className='cancil absolute top-4 right-4  text-white font-bold rounded-md py-1 px-3 text-xl cursor-pointer  transition-all'>X</span>
     )
     }
-    window.addEventListener("scroll",()=>{
+    useEffect(()=>{
+        window.addEventListener("scroll",()=>{
         if(window.scrollY>5){
             document.querySelector("nav").classList.add("shadow")
         }else{
             document.querySelector("nav").classList.remove("shadow")
         }
     })
+    },[])
     function SearchComponent () {
     if(open){
                 return (

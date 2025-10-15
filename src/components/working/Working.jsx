@@ -14,11 +14,6 @@ export default function Working () {
     })
 },[])
 
-
-
-
-
-
     return (
         <>
             <div className="work">

@@ -1,10 +1,11 @@
-import './testimonial.css'
+import './Testimonial'
 import { faChevronLeft, faChevronRight } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { useState } from 'react'
 import { useEffect } from 'react'
 
 export default function Testimonials () {
+
     useEffect(()=>{
     const tSection =  document.querySelector(".test")
     window.addEventListener("scroll",()=>{
@@ -15,10 +16,6 @@ export default function Testimonials () {
         }
     })
 },[])
-
-
-
-
 
     const [num,setNum] = useState(1)
 
