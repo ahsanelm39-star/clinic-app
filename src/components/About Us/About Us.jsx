@@ -14,11 +14,11 @@ const box = chick == "home" ? <Reed/> : <Countent/>
                 <img src="/images/about-box.png" alt="toy" />
                 <div className="images flex gap-4">
                     <div>
-                        <img src="/public/images/doctors-2-a.webp" alt="team" />
-                        <img src="/public/images/doctors-3-a.jpg" alt="team" />
+                        <img src="/images/about-1.jpg" alt="team" />
+                        <img src="/images/about-2.jpg" alt="team" />
                     </div>
                     <div>
-                        <img src="/public/images/doctors-1-a.webp" alt="team" />
+                        <img src="/images/about-3.jpg" alt="team" />
                         <div>25
                             <span>Year Experience</span>
                         </div>

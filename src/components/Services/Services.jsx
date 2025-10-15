@@ -41,12 +41,12 @@ export default function Services () {
         },
         {
             id:5,
-            icon:"/public/images/Injection-1.png",
+            icon:"/images/Injection-1.png",
             h2:"Vaccine",
         },
         {
             id:6,
-            icon:"/public/images/doctors-icons.png",
+            icon:"/images/doctors-icons.png",
             h2:"Qualified Doctors",
         },
     ]

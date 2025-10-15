@@ -140,7 +140,14 @@
     color: var(--hover-color);
     margin-bottom: 20px;
 }
-
+@media (max-width:543px) {
+    .about-us .images>div:last-of-type div{
+        font-size: 70px;
+    }
+    .about-us .images>div:last-of-type span{
+        font-size: 18px;
+    }
+}
 
 .about-us .box .text span{
     background-image: url(/public//images//about-p.png);
