@@ -1,4 +1,4 @@
-import './Testimonial'
+import './Testimonial.css'
 import { faChevronLeft, faChevronRight } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { useState } from 'react'
