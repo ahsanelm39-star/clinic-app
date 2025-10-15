@@ -123,6 +123,11 @@ export default function Header () {
                                         </Link>
                                         <Link onClick={()=>{
                                             document.querySelector(".list-page").classList.remove("movr-list")
+                                        }} to={"/About"}>
+                                            <li className='li-about2'>About Us</li>
+                                        </Link>
+                                        <Link onClick={()=>{
+                                            document.querySelector(".list-page").classList.remove("movr-list")
                                         }} to={'/Services'}>
                                             <li className='ser2'>Services</li>
                                         </Link>
@@ -135,11 +140,6 @@ export default function Header () {
                                             document.querySelector(".list-page").classList.remove("movr-list")
                                         }} to={'/Contact'}>
                                             <li>Contact Us</li>
-                                        </Link>
-                                        <Link onClick={()=>{
-                                            document.querySelector(".list-page").classList.remove("movr-list")
-                                        }} to={"/About"}>
-                                            <li className='li-about2'>About Us</li>
                                         </Link>
                                         <Link onClick={()=>{
                                             document.querySelector(".list-page").classList.remove("movr-list")
@@ -182,20 +182,21 @@ export default function Header () {
                             <Link to={"/"}>
                                 <li>Home</li>
                             </Link>
+                                    <Link to={"/About"}>
+                                        <li className=' fa'>About Us</li>
+                                    </Link>
                                     <Link to={'/Services'}>
                                         <li className='ser'>Services</li>
                                     </Link>
                             
-                                    <Link to={"/FAQ'S"}>
-                                        <li className='fa'>FAQ'S</li>
-                                    </Link>
+                                    
                             <Link to={'/Contact'}>
                                 <li>Contact Us</li>
                             </Link>
                             <li>Pages <span><FontAwesomeIcon icon={faPlus} /></span>
                                 <ul className='absolute bg-white rounded-md  w-45 ul2 transition-all  left-0 pb-2'>
-                                    <Link to={"/About"}>
-                                        <li className='li-about'>About Us</li>
+                                    <Link to={"/FAQ'S"}>
+                                        <li className='li-about'>FAQ'S</li>
                                     </Link>
                                     <Link to={"/Team"}>
                                         <li className='te'>Our Team</li>

@@ -3,7 +3,7 @@ import './App.css'
 import Header from "/src/components/Header/Header"
 import Landing from './components/Landing/Landing'
 import Footer from './components/Footer/Footer'
-import AboutUs from './components/About Us/About Us'
+import AboutUs from './components/About/About'
 import Working from './components/working/Working'
 import Book from './components/Book/Book'
 import Services from './components/Services/Services'
