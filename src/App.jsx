@@ -1,6 +1,6 @@
 import './App.css'
 /////component/////
-import Header from "/src/components/Header/Header"
+import Header from './components/Header/Header'
 import Landing from './components/Landing/Landing'
 import Footer from './components/Footer/Footer'
 import AboutUs from './components/About/About'
